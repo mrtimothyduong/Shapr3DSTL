@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Shapr3D STL Exporter",
+  "description": "",
+  "version": "1.2",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "shapr3d-stl-exporter@example.com",
+      "strict_min_version": "57.0"
+    }
+  },
+  "content_scripts": [{
+      "matches": ["*://app.shapr3d.com/*"],
+      "run_at": "document_start",
+      "js": ["content.js", "injected.js"],
+      "css" : ["custom.css"]
+  }],
+  "web_accessible_resources": ["injected.js"]
+}
