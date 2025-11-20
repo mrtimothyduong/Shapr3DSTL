@@ -20,6 +20,7 @@ Forked from [mmahler2/Shapr3DSTL](https://github.com/mmahler2/Shapr3DSTL) and up
 
 ## Usage
 With the extension active in your browser, visit any Shapr3D preview link. An "Export STL" button should appear in the bottom right corner.
+
 <img width="537" height="410" alt="image" src="https://github.com/user-attachments/assets/c0849781-617f-4857-96b1-32265f809890" />
 
 ### Generating a Preview / Review Link
