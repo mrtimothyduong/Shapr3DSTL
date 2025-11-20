@@ -17,6 +17,6 @@ This is a Google Chrome & Firefox extension that allows the download of high-res
 4. Select the **manifest.json** file from the folder you just downloaded
 
 ## Usage
-To use:
+With the extension active in your browser, visit any Shapr3D preview link. An "Export STL" button should appear in the bottom right corner.
 
-With the extension active, visit any Shapr3D preview link. An "Export STL" button should appear in the bottom right corner.
+Note: To Generate the Shapr3d Preview Link, open the 3D model in Shapr3D app, select `Share` and copy the URL provided into Firefox/Chrome with the extension active
