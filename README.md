@@ -20,13 +20,16 @@ Forked from [mmahler2/Shapr3DSTL](https://github.com/mmahler2/Shapr3DSTL) and up
 
 ## Usage
 With the extension active in your browser, visit any Shapr3D preview link. An "Export STL" button should appear in the bottom right corner.
-
 <img width="537" height="410" alt="image" src="https://github.com/user-attachments/assets/c0849781-617f-4857-96b1-32265f809890" />
 
-
-Note: Generating a Preview / Review Link
+### Generating a Preview / Review Link
 1. From the Menu bar in the modeling space, go to the File menu (Windows/macOS) or the More menu (iPadOS), then select Export To > Export…  to open the Export modal.
 2. Under All Formats, select Review Link.
 3. To generate your Review Link, select Publish.
+
+<img width="537" height="436" alt="image" src="https://github.com/user-attachments/assets/d82d12c8-9af5-4a4b-840e-ab6307d0e6e9" />
+
 Note: Select beside Publish Review Link to manage privacy and access settings before generating the link.
 Optional: If Sync is disabled, you’ll be prompted to enable it before continuing. Enable Sync to continue.
+
+
