@@ -9,7 +9,7 @@ window.fetch = async function (...args) {
 
 
   if (url.method == "GET"){
-    if (url.url.startsWith("blob:https://collaborate.shapr3d.com/")){
+    if (url.url.startsWith("blob:https://app.shapr3d.com/")){
       
       //found the blob url
       window.MODEL_GLTF_URL = url.url
