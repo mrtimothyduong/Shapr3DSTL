@@ -1,14 +1,15 @@
 # Shapr3D Export to STL for free!
 
-## This is a Firefox extension that allows the download of high-resolution models out of the web preview. Huge thanks to three.js for being awesome.
+This is a Google Chrome & Firefox extension that allows the download of high-resolution models out of the web preview. Huge thanks to three.js for being awesome.
 
+## Extension Installation
+**Firefox** <img src="https://camo.githubusercontent.com/b75ea9652ae14231e213b8588ce717c948f69ec399e8032bb3f68fc89ff03379/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f66697265666f782e737667" alt="Chrome Icon" width="16" height="16">
+1. Download the [~/firefox/](/firefox/) files to your local machine
+2. Open `about:debugging#/runtime/this-firefox` in Firefox
+3. Click "**Load Temporary Add-on...**"
+4. Select the **manifest.json** file from the folder you just downloaded
 
-To install:
-1. Download these files to your local machine
-2. Open about:debugging#/runtime/this-firefox
-3. Click "Load Temporary Add-on..."
-4. Select the manifest.json file from the folder you just downloaded
+## Usage
+With the extension active in your browser, visit any Shapr3D preview link. An "Export STL" button should appear in the bottom right corner.
 
-To use:
-
-With the extension active, visit any Shapr3D preview link. An "Export STL" button should appear in the bottom right corner.
+Note: To Generate the Shapr3d Preview Link, open the 3D model in Shapr3D app, select `Share` and copy the URL provided into Firefox/Chrome with the extension active
