@@ -4,13 +4,13 @@
   "description": "",
   "version": "1.2",
   "content_scripts": [{
-      "matches": ["*://collaborate.shapr3d.com/*"],
+      "matches": ["*://app.shapr3d.com/*"],
       "run_at": "document_start",
       "js": ["content.js", "injected.js"],
       "css" : ["custom.css"]
   }],
   "web_accessible_resources": [{
       "resources": ["injected.js"],
-      "matches": ["*://collaborate.shapr3d.com/*"]
+      "matches": ["*://app.shapr3d.com/*"]
   }]
 }
